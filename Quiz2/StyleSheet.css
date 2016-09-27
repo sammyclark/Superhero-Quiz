@@ -1,0 +1,71 @@
+﻿body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.text-center {
+    font-family: 'Michroma', sans-serif;
+}
+
+.img {
+    padding: 0px;
+}
+
+p {
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.answers {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+#outside {
+    background-color: lightgrey; 
+    height: 24px; /*24px*/ 
+    width: 200px; /*100px*/ 
+    border-style: solid;
+    border-color: black; 
+    border-width: 2px;
+    text-align: center !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+
+#inside {
+    background-color: indianred; 
+    height: 22px;  /*20px*/
+    width: 200px; /*100px*/
+    text-align: center !important;
+}
+
+#ErrorDisplay {
+    height: 90px;
+    width: 300px;
+    align-items: center;
+    background-color: palevioletred;
+    border: solid black 2px;
+    float: right !important;
+    margin-right: 100px !important;
+    margin-top: 400px !important;
+    display: inline !important;
+}
+
+#ErrorMessage {
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+
+#ansLabel {
+    font-size: 18px
+}
+
+#correctLabel {
+    font-size: 16px
+}
